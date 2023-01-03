@@ -11,29 +11,26 @@ and the Flutter guide for
 [developing packages and plugins](https://flutter.dev/developing-packages).
 -->
 
-TODO: Put a short description of the package here that helps potential users
-know whether this package might be useful for them.
 
 ## Features
 
-TODO: List what your package can do. Maybe include images, gifs, or videos.
+A package that creates a placeholder using an asset image that the user provides until the network image loads.
 
 ## Getting started
 
-TODO: List prerequisites and provide or point to information on how to
-start using the package.
+import the package 
+```dart
+import 'package:delayed_network_image/delayed_network_image.dart';
+```
 
 ## Usage
 
-TODO: Include short and useful examples for package users. Add longer examples
-to `/example` folder.
-
-```dart
-const like = 'sample';
+```
+DelayedNetworkImage(
+networkImage: NetworkImage(
+'https://letsenhance.io/static/334225cab5be263aad8e3894809594ce/75c5a/MainAfter.jpg'),
+assetImage: AssetImage('image/anyImage.jpg'),
+child: AnyWidget(),
+)
 ```
 
-## Additional information
-
-TODO: Tell users more about the package: where to find more information, how to
-contribute to the package, how to file issues, what response they can expect
-from the package authors, and more.

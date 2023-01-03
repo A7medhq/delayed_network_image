@@ -1,7 +1,7 @@
 name: delayed_network_image
 description: Delayed network image.
 version: 0.0.1
-homepage:
+homepage: https://github.com/A7medhq/delayed_network_image
 
 environment:
   sdk: '>=2.18.5 <3.0.0'
