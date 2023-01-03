@@ -25,12 +25,14 @@ import 'package:delayed_network_image/delayed_network_image.dart';
 
 ## Usage
 
+Wrap your Container with the new ```DelayedNetworkImage``` and put required parameters ```networkImage``` , ```assetImage```
+
 ```
 DelayedNetworkImage(
 networkImage: NetworkImage(
 'https://letsenhance.io/static/334225cab5be263aad8e3894809594ce/75c5a/MainAfter.jpg'),
 assetImage: AssetImage('image/anyImage.jpg'),
-child: AnyWidget(),
+child: Container(),
 )
 ```
 
